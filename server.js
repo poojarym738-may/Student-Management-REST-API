@@ -1,7 +1,7 @@
 require("dotenv").config();
 
 const express = require("express");
-const studentRoutes = require("./routes/studentRoutes");
+const studentRoutes = require("./studentRoutes");
 const { initializeDatabase } = require("./database");
 
 const app = express();
