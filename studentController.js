@@ -1,4 +1,4 @@
-const { db } = require("../database");
+const { db } = require("./database");
 
 function validEmail(email) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
