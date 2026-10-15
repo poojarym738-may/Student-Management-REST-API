@@ -67,17 +67,15 @@ Send a `POST` request to `http://localhost:3000/api/students` with **Body → ra
 
 ```text
 student-management-rest-api/
-├── controllers/
-│   └── studentController.js
-├── routes/
-│   └── studentRoutes.js
 ├── .env.example
 ├── .gitignore
 ├── API_DOCUMENTATION.md
 ├── database.js
 ├── package.json
 ├── README.md
-└── server.js
+├── server.js
+├── studentController.js
+├── studentRoutes.js
 ```
 
 ## Upload to GitHub
